@@ -1,0 +1,49 @@
+
+<!--Style attribute -->
+
+The sysntax for style attribute is:
+<tagname style="property: value">
+
+In this case the tagname is the 'object' that you wish to style. For example object can be paragraph, body, header, container etc.
+
+e.g.
+<body style="background-color: gray;">
+
+
+<!--HTML Formatting elements-->
+
+These elements are used to format HTML text.(ie changing the state of a given text)
+<b></b> for making the text 'Bold'
+<i></i> for making the text 'italic'
+<strong></strong> To make text 'strong' with semantic importance (This looks more like 'bold')
+<em></em> the text gets 'emphasized' with semantic importance (This looks like 'italic')
+<sup></sup> Superscript
+<sub></sub> Subscript
+and few others!
+
+<!--HTML quotation and citation-->
+
+Websites use <q> tag for (short) quotation.
+	eg <q>I love my dear God</q>
+
+For a section quoted from another source the element <blockquote></blockquote> is used. Usually websites indents the 'quoted block'
+	e.g <p>It is said in one Bible scripture, 2 corinthians 9:7 to be precise</p>
+
+		<blockquote cite="http://www.cannonballministries.webs.com">You have to purpose in your heart as to how much to give. It should not be under compulsion for God loves a cheerful giver.</blockquote>
+
+<!--The <abbr> element-->
+
+The <abbr></abbr> element is used to explain an acronym or abbreviation in a website. This is useful for seacrh engines.
+
+<p>The <abbr title="African National Congress">ANC</abbr> was fromed in 1912.</p>
+
+<!--The address element-->
+Used to give address details of an author of an article. Usually the address element is in a block from with line break tags <br> at the end of each adress line.
+e.g.
+<address>
+	Contact the Author at: <br>
+	Suit 204 <br>
+	Eben Donges Building <br>
+	Port Elizabeth <br>
+	South Africa
+</address>
